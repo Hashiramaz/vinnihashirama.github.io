@@ -2,7 +2,21 @@
 
 Fala galera testando top o site aqui 
     
-<iframe src="https://discordapp.com/widget?id=291915515943845889&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<script type="text/javascript" src="//cdn.jsdelivr.net/discord-widget/latest/discord-widget.min.js"></script>
+<script type="text/javascript">
+    discordWidget.init({
+        serverId: '371424834846195713',
+        title: 'Discord Widget Title',
+        join: false,
+        alphabetical: false,
+        theme: 'dark',
+        hideChannels: ['Channel Name 1', 'Channel Name 2'],
+        showAllUsers: true,
+        allUsersDefaultState: true
+    });
+    discordWidget.render();
+</script>
+<div class="discord-widget"></div>
 
 
 </html>
